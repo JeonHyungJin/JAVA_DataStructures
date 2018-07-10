@@ -3,7 +3,7 @@ package StackLinkedList;
 public class Stack<T extends Comparable<T>> {
 
 	private Node<T> root;
-	private int count;
+	private int count = 0;
 	
 	// O(1) constant time
 	public void push(T newData){
